@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+        <title>
+            my webpage
+        </title>
+    </head>
+    <body>
+<a-scene>
+
+<a-entity position="43 9 0">
+    <a-camera></a-camera>
+    <a-sky src="https://cdn.glitch.com/850dd813-e5e9-4dd0-9751-38981ae74172%2Fvia_lactea.png?v=1604296331712
+"></a-sky>
+</a-entity>
+
+<a-entity>
+<a-sphere position="0 0 0" radius="2" src="https://cdn.glitch.com/850dd813-e5e9-4dd0-9751-38981ae74172%2Fsol.jpg?v=1604296185621"></a-sphere>
+
+</a-entity>
+<!--mercury-->
+
+<a-entity position="0 0 0" rotation="0 0 0" animation="property:rotation;to:0 360 0;easing:linear;loop:true;dur:20000">
+    <a-sphere position="1 0 -5" radius="0.2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO6_HnF-Cp8KoNGpU1jz1cNKara__uJtsmUyBWj7HmxA&s"></a-sphere>
+</a-entity>
+
+<!--venus-->
+
+<a-entity position="0 0 0" rotation="0 0 0" animation="property: rotation; to: 0 360 0;easing:linear; loop: true; dur: 25000">
+    <a-sphere position="6 0 -5" radius="0.3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW_6zHVGH-_TRU7g27CqMKYoKVcJQmgi8g6OGnJKB3Cw&s"></a-sphere>
+</a-entity>
+<!--earth-->
+
+<a-entity position="0 0 0" rotation="0 0 0" animation="property: rotation; to: 0 360 0;easing:linear; loop: true; dur: 30000">
+    <a-sphere position="10.5 0 -5" radius="0.5" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS03TkE5wzuyMgYvue_CteW0ZxAnVxmz6ZObc7Ok-_DEQ&s">
+<!--moon-->
+
+<a-entity position="0 0 0" rotation="0 0 0" animation="property: rotation; to: 0 360 0;easing:linear; loop: true; dur: 10000">
+    <a-sphere position="1 0 0" radius="0.2" src="https://t4.ftcdn.net/jpg/03/09/04/59/360_F_309045980_zKAgyd8feCR69CMWQ1PlhCHhteODo9zd.jpg"></a-sphere>
+</a-entity>
+    </a-sphere>
+</a-entity>
+<!--mars-->
+
+<a-entity position="0 0 0" rotation="0 0 0" animation="property: rotation; to: 0 360 0;easing:linear; loop: true; dur: 35000">
+    <a-sphere position="14.5 0 -5" radius="0.4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFYuSF4B9fErS0UKk5keqEQm6Nenno-ZYV8CFQXXmH3A&s"></a-sphere>
+</a-entity>
+<!--jupiter-->
+
+<a-entity position="0 0 0" rotation="0 0 0" animation="property: rotation; to: 0 360 0;easing:linear; loop: true; dur: 40000">
+    <a-sphere position="21 0 -5" radius="1.2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP06jZ6gEz8q96XTWIhCRxlnq3gX05hLKo3KnQr-67OA&s"></a-sphere>
+</a-entity>
+<!--saturn-->
+
+<a-entity position="0 0 0" rotation="0 0 0" animation="property: rotation; to: 0 360 0;easing:linear; loop: true; dur: 45000">
+    <a-sphere position="26 0 -5" radius="0.9" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMrINu3sf0-ImbAEZt08bxgmJKnF_5mrnm_eVaW2jwMg&s">
+        <a-torus color="red" rotation="90 0 0" radius="3" radius-tubular="0.015" segments-tubular="1000"></a-torus>
+
+    </a-sphere>
+</a-entity>
+<!--uranus-->
+
+<a-entity position="0 0 0" rotation="0 0 0" animation="property: rotation; to: 0 360 0;easing:linear; loop: true; dur: 50000">
+    <a-sphere position="31 0 -5" radius="0.6" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS3Sl14TyHWRvz01kecXQe9GXMUZ1gAwCPIwvP2O3H4Q&s"></a-sphere>
+</a-entity>
+<!--neptune-->
+
+<a-entity position="0 0 0" rotation="0 0 0" animation="property: rotation; to: 0 360 0;easing:linear; loop: true; dur: 55000">
+    <a-sphere position="36 0 -5" radius="0.5" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS3Sl14TyHWRvz01kecXQe9GXMUZ1gAwCPIwvP2O3H4Q&s"></a-sphere>
+</a-entity>
+<!--orbital paths-->
+<a-torus color="grey" rotation="90 0 0" radius="5" radius-tubular="0.01" segments-tubular="1000"></a-torus>
+<a-torus color="grey" rotation="90 0 0" radius="7.8" radius-tubular="0.01" segments-tubular="1000"></a-torus>
+<a-torus color="grey" rotation="90 0 0" radius="10.6" radius-tubular="0.01" segments-tubular="1000"></a-torus>
+<a-torus color="grey" rotation="90 0 0" radius="14.5" radius-tubular="0.01" segments-tubular="1000"></a-torus>
+<a-torus color="grey" rotation="90 0 0" radius="21.5" radius-tubular="0.01" segments-tubular="1000"></a-torus>
+<a-torus color="grey" rotation="90 0 0" radius="26.5" radius-tubular="0.01" segments-tubular="1000"></a-torus>
+<a-torus color="grey" rotation="90 0 0" radius="31.5" radius-tubular="0.01" segments-tubular="1000"></a-torus>
+<a-torus color="grey" rotation="90 0 0" radius="36" radius-tubular="0.01" segments-tubular="1000"></a-torus>
+</a-scene>
+    </body>
+</html>
